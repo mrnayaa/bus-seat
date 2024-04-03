@@ -281,7 +281,7 @@ a {
     #gif-container {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Five columns */
+        grid-template-columns: repeat(2, 1fr); 
         grid-auto-rows: minmax(300px, auto); 
         position: absolute;
         gap: 0px;
@@ -290,7 +290,6 @@ a {
         left: 0;
         width: 100%;
         height: 100%;
-        /* Center the content horizontally */
     }
 }
 
