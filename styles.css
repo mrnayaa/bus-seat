@@ -93,7 +93,7 @@ a {
     position: fixed;
     display: absolute;
     margin-top: 5px;
-    margin-left: 600px;
+    margin-left: 615px;
     z-index: 9999;
 }
 
@@ -111,11 +111,14 @@ a {
 #map {
     height: 400px;
     width: 600px;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+    position: fixed;
+    display: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 9999;
     display: none;
+    filter:hue-rotate(200deg);
 }
 
 
