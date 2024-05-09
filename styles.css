@@ -108,17 +108,19 @@ a {
 }
 
 
-#map {
+#info {
+    color: white;
     height: 400px;
     width: 600px;
     position: fixed;
     display: absolute;
-    top: 50%;
+    line-height: 1.5em;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
     display: none;
-    filter:hue-rotate(200deg);
+    text-transform: uppercase;
 }
 
 
@@ -176,6 +178,12 @@ a {
 
         /* Mobile screens */
 @media screen and (max-width: 767px) {
+
+    #info {
+    height: 400px;
+    width: 300px;
+    }
+   
     #header-nav {
         margin-left: 0px; /* Adjust margin for smaller screens */
     }
@@ -241,6 +249,12 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #info {
+    height: 400px;
+    width: 300px;
+    }
+
     #header-nav {
         margin-left: 0px; 
     }

@@ -5,9 +5,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>Interactive Experience</title>
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
 </head>
 <body>
 	<div id="app">
@@ -22,7 +20,7 @@
             </div>
             <div id="header-nav">
                 <div id="nav-link-0" class="nav-link">
-                    <a href="#" class="nav-item">INTRO</a>
+                    <a href="#" class="nav-item" data-gif="assets/void.gif">INTRO</a>
                 </div>
                 <div id="nav-link-1" class="nav-link">
                     <a href="#" class="nav-item" data-gif="assets/klodzko.gif">KLODZKO, POLAND</a>
@@ -42,9 +40,11 @@
     <div id="gif-container">
       
     </div>
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>  
+
+    <div id="info">
+        <p>This website contains a collection of bus seat patterns found in public transportation across European countries, with each pattern placed within a digital grid system. The grid features pixelated GIFs of each pattern, representing the dynamic nature of public transport. Each pattern's visual quality refers to the pixelated aesthetic of early web graphics, invoking a sense of nostalgia while also making the patterns more engaging and visually distinctive. </p>
+    </div>
+    
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>	  
 <script src="script.js"></script>
